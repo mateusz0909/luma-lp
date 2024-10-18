@@ -1,115 +1,97 @@
 #page title
-page_title                                :                                           # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+page_title: # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
 # App Info
-ios_app_id                                : 6737122722                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
-ios_app_country                           : pl                                        # Required outside USA. Enter 2 letter country code as in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
+ios_app_id: 6737122722 # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
+ios_app_country: pl # Required outside USA. Enter 2 letter country code as in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
 
-appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
-playstore_link                            :                                           # Enter Google Play Store URL.
-presskit_download_link                    :                                           # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
-                                                                                      # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
+appstore_link: # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
+playstore_link: # Enter Google Play Store URL.
+presskit_download_link:# Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file).
+  # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
-app_icon                                  : # assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
-app_name                                  :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Personalized breathing for a peaceful mind.
+app_icon: assets/appicon.png # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
+app_name: # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_price: # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_description: Personalized breathing for a peaceful mind.
 
-enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
-
-
+enable_smart_app_banner: true # Set to true to show a smart app banner at top of page on mobile devices.
 
 # Information About Yourself
-your_name                                 : Mateusz Byrtus                                
-your_link                                 : https://x.com/ByrtusMateusz                    
-your_city                                 : Warsaw, Poland                                
-email_address                             : mateusz.byrtus@icloud.com
-facebook_username                         :                                           
-instagram_username                        : 
-twitter_username                          : ByrtusMateusz
-github_username                           : emilbaehr
-youtube_username                          : 
-mastodon_link                             : 
-
-
+your_name: Mateusz Byrtus
+your_link: https://x.com/ByrtusMateusz
+your_city: Warsaw, Poland
+email_address: mateusz.byrtus@icloud.com
+facebook_username:
+instagram_username:
+twitter_username: ByrtusMateusz
+github_username: mateusz0909
+youtube_username:
+mastodon_link:
 
 # Feature List                            Edit, add or remove features to be presented.
 features:
-  - title                                 : Customizable Breathing Sessions
-    description                           : Personalize your breathwork with adjustable settings like breath count, retention time, and session rounds.
-    fontawesome_icon_name                 : sliders-h
+  - title: Customizable Breathing Sessions
+    description: Personalize your breathwork with adjustable settings like breath count, retention time, and session rounds.
+    fontawesome_icon_name: sliders-h
 
-  - title                                 : Soothing Voice Guidance
-    description                           : Experience real-time voice guidance that gently leads you through each breath, keeping you focused and relaxed.
-    fontawesome_icon_name                 : headphones
+  - title: Soothing Voice Guidance
+    description: Experience real-time voice guidance that gently leads you through each breath, keeping you focused and relaxed.
+    fontawesome_icon_name: headphones
 
-  - title                                 : Natural Breath Sounds
-    description                           : Immerse yourself in calming, natural breath sounds designed to help you stay present and relaxed during each session.
-    fontawesome_icon_name                 : volume-up
+  - title: Natural Breath Sounds
+    description: Immerse yourself in calming, natural breath sounds designed to help you stay present and relaxed during each session.
+    fontawesome_icon_name: volume-up
 
-  - title                                 : Visual Breathing Cues
-    description                           : Follow along with intuitive visual cues to synchronize your breath, making the experience even smoother.
-    fontawesome_icon_name                 : eye
+  - title: Visual Breathing Cues
+    description: Follow along with intuitive visual cues to synchronize your breath, making the experience even smoother.
+    fontawesome_icon_name: eye
 
-  - title                                 : Session Summary & Progress Tracking
-    description                           : Review detailed session summaries and track your progress over time to stay motivated and improve your breathwork practice.
-    fontawesome_icon_name                 : chart-line
+  - title: Session Summary & Progress Tracking
+    description: Review detailed session summaries and track your progress over time to stay motivated and improve your breathwork practice.
+    fontawesome_icon_name: chart-line
 
-  - title                                 : Stress Relief & Relaxation
-    description                           : Reduce stress and anxiety by practicing scientifically-backed breathwork techniques designed for calm and focus.
-    fontawesome_icon_name                 : smile
+  - title: Stress Relief & Relaxation
+    description: Reduce stress and anxiety by practicing scientifically-backed breathwork techniques designed for calm and focus.
+    fontawesome_icon_name: smile
 
-  - title                                 : Offline Mode
-    description                           : No internet? No problem. Luma works offline, so you can breathe deeply anywhere, anytime.
-    fontawesome_icon_name                 : wifi-slash
+  - title: Offline Mode
+    description: No internet? No problem. Luma works offline, so you can breathe deeply anywhere, anytime.
+    fontawesome_icon_name: tree
 
-  - title                                 : Quick Start Breathing Sessions
-    description                           : Start your session in seconds with just a tap. Luma makes breathwork easy and accessible, even on busy days.
-    fontawesome_icon_name                 : play
-
-
+  - title: Quick Start Breathing Sessions
+    description: Start your session in seconds with just a tap. Luma makes breathwork easy and accessible, even on busy days.
+    fontawesome_icon_name: play
 
 # Theme Settings
-topbar_color                              : "#000000"
-topbar_transparency                       : 0.1
-topbar_title_color                        : "#ffffff"
+topbar_color: "#000000"
+topbar_transparency: 0.1
+topbar_title_color: "#ffffff"
 
-cover_image                               : assets/headerimage.png                    # Replace with alternative image path or image URL.
-cover_overlay_color                       : "#363b3d"
-cover_overlay_transparency                : 0.8
+cover_image: assets/headerimage.png # Replace with alternative image path or image URL.
+cover_overlay_color: "#363b3d"
+cover_overlay_transparency: 0.8
 
-device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
+device_color: black # Set to: blue, black, yellow, coral or white.
 
-body_background_color                     : "#ffffff"
+body_background_color: "#ffffff"
 
-link_color                                : "#1d63ea"
+link_color: "#1d63ea"
 
-app_title_color                           : "#ffffff"
-app_price_color                           : "#ffffff"
-app_description_color                     : "#ffffff"
+app_title_color: "#ffffff"
+app_price_color: "#ffffff"
+app_description_color: "#ffffff"
 
-feature_title_color                       : "#000000"
-feature_text_color                        : "#666666"
+feature_title_color: "#000000"
+feature_text_color: "#666666"
 
-feature_icons_foreground_color            : "#1d63ea"
-feature_icons_background_color            : "#e6e6e6"
+feature_icons_foreground_color: "#1d63ea"
+feature_icons_background_color: "#e6e6e6"
 
-social_icons_foreground_color             : "#666666"
-social_icons_background_color             : "#e6e6e6"
+social_icons_foreground_color: "#666666"
+social_icons_background_color: "#e6e6e6"
 
-footer_text_color                         : "#666666"
-
-
-
-
-
-
-
-
-
-
-
-
+footer_text_color: "#666666"
 
 ####################################################
 ### Jekyll Configuration. No need to touch this. ###
